@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.13" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="harryPotterYahtzee.Scorecard" project="HPYahtzee-master" 
+    file="/HPYahtzee-master/harryPotterYahtzee/harryPotterYahtzee/Scorecard.java" binary="false" label="scorecard" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="304" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="87" x="5" y="78"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="harryPotterYahtzee.ScorecardLine" project="HPYahtzee-master" 
+    file="/HPYahtzee-master/harryPotterYahtzee/harryPotterYahtzee/ScorecardLine.java" binary="false" 
+    label="scorecardLine" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="380" y="0"/>    
+    <execution id="6">      
+      <position height="105" width="107" x="278" y="655"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="7" x="328" y="697"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="21" width="107" x="96" y="99"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="564" width="107" x="96" y="111"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="7" x="146" y="379"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="7" x="146" y="433"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="21" width="7" x="146" y="480"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="21" width="7" x="146" y="503"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="7" x="146" y="539"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="7" x="146" y="576"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="7" x="146" y="612"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="harryPotterYahtzee.Hand" project="HPYahtzee-master" 
+    file="/HPYahtzee-master/harryPotterYahtzee/harryPotterYahtzee/Hand.java" binary="false" label="hand" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="183" y="0"/>    
+    <execution id="12">      
+      <position height="522" width="87" x="5" y="132"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="21" width="7" x="45" y="174"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="21" width="7" x="45" y="237"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="21" width="7" x="45" y="296"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="21" width="7" x="45" y="350"/>    
+    </execution>  
+  </object>  
+  <object id="40" language="java" name="harryPotterYahtzee.Die" project="HPYahtzee-master" 
+    file="/HPYahtzee-master/harryPotterYahtzee/harryPotterYahtzee/Die.java" binary="false" label="die" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="129" y="0"/>    
+    <execution id="22">      
+      <position height="63" width="87" x="96" y="153"/>    
+    </execution>    
+    <execution id="24">      
+      <position height="69" width="7" x="136" y="210"/>    
+    </execution>    
+    <execution id="26">      
+      <position height="62" width="7" x="136" y="276"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="63" width="7" x="142" y="329"/>    
+    </execution>  
+  </object>  
+  <object id="45" language="java" name="harryPotterYahtzee.GoldenSnitchBonus" project="HPYahtzee-master" 
+    file="/HPYahtzee-master/harryPotterYahtzee/harryPotterYahtzee/GoldenSnitchBonus.java" binary="false" 
+    label="goldenSnitchBonus" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="551" y="0"/>    
+    <execution id="8">      
+      <position height="63" width="134" x="389" y="676"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="setScore(harryPotterYahtzee.Hand):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="GoldenSnitchBonus()" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="11" operation="totalOfAllDice():int" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="21" operation="rollDie():void" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="23" operation="getIsKept():boolean" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="24"/>  
+  </message>  
+  <message id="25" operation="getHouse():int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="26"/>  
+  </message>  
+  <message id="27" operation="getCharacter():int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="29" operation="threeOfAKindScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="30" operation="fourOfAKindScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="31" operation="fullHouseScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="32" operation="McGonagallScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="33" operation="SnapeScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="34" operation="DumbledoresArmyScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="35" operation="yahtzeeScore(harryPotterYahtzee.Hand):int" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="41" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="42" asynchronous="false">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="43" asynchronous="false">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="44" asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="46" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>
+</sequence-diagram>
